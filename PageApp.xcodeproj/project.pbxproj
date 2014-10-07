@@ -21,6 +21,9 @@
 		89A6DBFB19E3E37600425089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A6DBDD19E3E37600425089 /* UIKit.framework */; };
 		89A6DC0319E3E37600425089 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89A6DC0119E3E37600425089 /* InfoPlist.strings */; };
 		89A6DC0519E3E37600425089 /* PageAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6DC0419E3E37600425089 /* PageAppTests.m */; };
+		89A6DC1119E3E42900425089 /* AppChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6DC0F19E3E42900425089 /* AppChildViewController.m */; };
+		89A6DC1219E3E42900425089 /* AppChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A6DC1019E3E42900425089 /* AppChildViewController.xib */; };
+		89A6DC1419E403F300425089 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89A6DC1319E403F300425089 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		89A6DC0019E3E37600425089 /* PageAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageAppTests-Info.plist"; sourceTree = "<group>"; };
 		89A6DC0219E3E37600425089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89A6DC0419E3E37600425089 /* PageAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAppTests.m; sourceTree = "<group>"; };
+		89A6DC0E19E3E42900425089 /* AppChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppChildViewController.h; sourceTree = "<group>"; };
+		89A6DC0F19E3E42900425089 /* AppChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppChildViewController.m; sourceTree = "<group>"; };
+		89A6DC1019E3E42900425089 /* AppChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppChildViewController.xib; sourceTree = "<group>"; };
+		89A6DC1319E403F300425089 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +89,7 @@
 		89A6DBCD19E3E37600425089 = {
 			isa = PBXGroup;
 			children = (
+				89A6DC1319E403F300425089 /* README.md */,
 				89A6DBDF19E3E37600425089 /* PageApp */,
 				89A6DBFE19E3E37600425089 /* PageAppTests */,
 				89A6DBD819E3E37600425089 /* Frameworks */,
@@ -115,6 +123,9 @@
 				89A6DBE819E3E37600425089 /* AppDelegate.h */,
 				89A6DBE919E3E37600425089 /* AppDelegate.m */,
 				89A6DBEB19E3E37600425089 /* Main.storyboard */,
+				89A6DC0E19E3E42900425089 /* AppChildViewController.h */,
+				89A6DC0F19E3E42900425089 /* AppChildViewController.m */,
+				89A6DC1019E3E42900425089 /* AppChildViewController.xib */,
 				89A6DBEE19E3E37600425089 /* ViewController.h */,
 				89A6DBEF19E3E37600425089 /* ViewController.m */,
 				89A6DBF119E3E37600425089 /* Images.xcassets */,
@@ -230,7 +241,9 @@
 			files = (
 				89A6DBF219E3E37600425089 /* Images.xcassets in Resources */,
 				89A6DBE419E3E37600425089 /* InfoPlist.strings in Resources */,
+				89A6DC1419E403F300425089 /* README.md in Resources */,
 				89A6DBED19E3E37600425089 /* Main.storyboard in Resources */,
+				89A6DC1219E3E42900425089 /* AppChildViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +265,7 @@
 				89A6DBF019E3E37600425089 /* ViewController.m in Sources */,
 				89A6DBEA19E3E37600425089 /* AppDelegate.m in Sources */,
 				89A6DBE619E3E37600425089 /* main.m in Sources */,
+				89A6DC1119E3E42900425089 /* AppChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
